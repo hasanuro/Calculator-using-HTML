@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Calculator -->
+
+    <!-- Form -->
+    <form action="" name="Calculator" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px; width: 180px">
+
+    <!-- Table -->
+    <Table>
+
+    <!-- 1st Row for the Display of Calculator -->
+    <tr>
+    <td>
+    <!-- Input type would be Text -->
+    <input type="text" name="Display" style="width:165px; height:30px; font-size:20px;">
+
+    </td>
+    </tr>
+
+    <!-- 2nd Row used for Display of Buttons -->
+    <tr>
+    <td>
+
+    <!-- Calculator Button -->
+    <input type="button" value = "7" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '7'">
+    <input type="button" value = "8" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '8'">
+    <input type="button" value = "9" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '9'">
+    <input type="button" value = "-" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '-'"><br>
+
+    <input type="button" value = "4" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '4'">
+    <input type="button" value = "5" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '5'">
+    <input type="button" value = "6" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '6'">
+    <input type="button" value = "+" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '+'"><br>
+
+    <input type="button" value = "1" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '1'">
+    <input type="button" value = "2" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '2'">
+    <input type="button" value = "3" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '3'">
+    <input type="button" value = "C" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value = ''"><br>
+
+    <input type="button" value = "/" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '/'">
+    <input type="button" value = "*" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '*'">
+    <input type="button" value = "0" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value += '0'">
+    <input type="button" value = "=" style="width: 40px; height: 40px; font-size: 20px; background-color: grey;" onclick="Calculator.Display.value = eval(Calculator.Display.value)"><br>
+
+    </td>
+    </tr>
+
+    </Table>
+
+    </form>
+    
+</body>
+</html>
